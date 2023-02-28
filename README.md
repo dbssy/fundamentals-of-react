@@ -27,8 +27,8 @@ Faça um clone desse repositório e acesse o diretório.
 
 ```bash
 # Clone o Repositório
-$ git clone https://github.com/dbssy/fundamentos-do-react-theming.git
-$ cd fundamentos-do-react-theming
+$ git clone https://github.com/dbssy/fundamentals-of-react.git
+$ cd fundamentals-of-react
 ```
 
 <br>
