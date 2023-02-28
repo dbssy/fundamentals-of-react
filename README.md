@@ -4,7 +4,7 @@
 
 ## 💻 Sobre o projeto
 
-O objetivo por trás dessa aplicação é entender como podemos utilizar o Theming do Styled Components em conjunto com as funcionalidades do React.
+O objetivo por trás dessa aplicação é entender como podemos utilizar o Theming do Styled Components e criar nossas próprias Rotas com React Router, em conjunto com as funcionalidades do React.
 
 <br>
 
@@ -13,6 +13,8 @@ Essas foram as tecnologias utilizadas neste projeto!
 
 - [React](https://reactjs.org/)
 - [React DOM](https://reactjs.org/docs/react-dom.html)
+- [React Router DOM](https://reactrouter.com/en/main)
+- [React Spring](https://www.react-spring.dev/)
 - [Styled Components](https://styled-components.com/)
 - [Babel](https://babeljs.io/)
 - [Webpack](https://webpack.js.org/)
