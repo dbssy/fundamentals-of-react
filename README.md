@@ -37,9 +37,6 @@ Instale os pacotes pelo gerenciador de pacotes de sua preferência.
 ```bash
 # npm
 $ npm install
-
-# yarn
-$ yarn
 ```
 
 <br>
@@ -48,9 +45,6 @@ Após ter instalado todos os pacotes, rode o projeto!
 ```bash
 # npm
 $ npm run dev
-
-# yarn
-$ yarn dev
 ```
 
 ## 📝 Licença

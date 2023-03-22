@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 
 import Home from './pages/Home';
@@ -7,7 +7,7 @@ import Posts from './pages/Posts';
 import Post from './pages/Post';
 import NotFound from './pages/NotFound';
 
-export default function Routes() {
+export default function Router() {
   const location = useLocation();
   const transitions = useTransition(location, {
     from: { opacity: 0, transform: 'translateY(50px)', position: 'absolute' },
@@ -17,12 +17,12 @@ export default function Routes() {
 
   return transitions((props, item) => (
     <animated.div style={props}>
-      <Switch location={item}>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/posts" component={Posts} />
-        <Route path="/posts/:id" component={Post} />
-        <Route component={NotFound} />
-      </Switch>
+      <Routes location={item}>
+        <Route path="/" element={<Home />} />
+        <Route path="/posts" element={<Posts />} />
+        <Route path="/posts/:id" element={<Post />} />
+        <Route element={<NotFound />} />
+      </Routes>
     </animated.div>
   ));
 }
